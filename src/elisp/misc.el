@@ -27,8 +27,8 @@
   (interactive)
   (desktop-save "~/.emacs.d/desktop")
   (message "desktop saved"))
-(global-set-key (kbd "s-s") 'desktop-sv)
-;;(global-set-key (kbd "s-o") 'desktop-cd)
+(global-set-key (kbd "M-s") 'desktop-sv) 
+(global-set-key (kbd "M-l") 'desktop-cd)
 
 (defun current-major-mode-name ()
   (interactive)
