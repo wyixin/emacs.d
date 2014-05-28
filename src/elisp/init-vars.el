@@ -68,7 +68,8 @@
 (setq vars-linux-server
       '((exec-path . ("~/programs/bin"))
         (lang-extra-modes . (php pde))
-        (work-dir . "~/")
+        (work-dir . "~/project")
+        (org-dir . "~/project/mine/org")
         (backup-dir . "~/.backup/emacs")
 		(erlang-root-dir . "~/Programs/otp/R15B01")
         (cscope-command . "/usr/bin/cscope -b")
